@@ -6,19 +6,18 @@ Uppercase SQL keywords without the need of holding <kbd>Shift</kbd> or <kbd>CAPS
 
 #### [vim-plug](https://github.com/junegunn/vim-plug):
 ```vim
-Plug 'Jorengarenar/vim-SQL-UPPER'
+Plug 'https://codeberg.org/Jorenar/vim-SQL-UPPER.git'
 ```
 
 #### Vim's packages
 ```bash
-cd ~/.vim/pack/plugins/start
-git clone git://github.com/Jorengarenar/vim-SQL-UPPER.git
+git clone https://codeberg.org/Jorenar/vim-SQL-UPPER.git ~/.vim/pack/plugins/start/vim-SQL-UPPER
 ```
 
 ## Usage
 
-When you type an SQL keyword in an SQL file, it will be automatically uppercased
-after you finish writting it.
+When you type an SQL keyword in an SQL file, it will be
+automatically upper-cased after you finish writing it.
 
 Words in comments and strings will be ignored.
 
