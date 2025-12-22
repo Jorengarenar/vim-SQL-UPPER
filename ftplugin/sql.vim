@@ -1,6 +1,6 @@
 " SQL auto uppercase
-" Maintainer:  Jorengarenar
-" License:     MIT
+" Author: Jorenar
+" License: MIT
 
 let g:SQL_UPPER = get(g:, "SQL_UPPER", "syntax")
 
